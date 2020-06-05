@@ -661,7 +661,7 @@ class ChannelHeader extends React.PureComponent {
                             <strong
                                 role='heading'
                                 aria-level='2'
-                                id='channelHeaderTitle'
+                                id='channelTitle'
                                 className='heading'
                             >
                                 <span>
@@ -670,7 +670,7 @@ class ChannelHeader extends React.PureComponent {
                                 </span>
                             </strong>
                             <span
-                                id='channelHeaderDropdownIcon'
+                                id='channel'
                                 className='fa fa-angle-down header-dropdown__icon'
                                 aria-label={formatMessage({id: 'generic_icons.dropdown', defaultMessage: 'Dropdown Icon'}).toLowerCase()}
                             />
