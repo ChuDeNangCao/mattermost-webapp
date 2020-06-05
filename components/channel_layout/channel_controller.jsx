@@ -43,7 +43,7 @@ export default class ChannelController extends React.Component {
     componentDidMount() {
         const platform = window.navigator.platform;
 
-        document.body.classList.add('app__body', 'channel-view');
+        document.body.classList.add('app__body', '');
 
         // IE Detection
         if (UserAgent.isInternetExplorer() || UserAgent.isEdge()) {
@@ -59,7 +59,7 @@ export default class ChannelController extends React.Component {
     }
 
     componentWillUnmount() {
-        document.body.classList.remove('app__body', 'channel-view');
+        document.body.classList.remove('', 'channel-view');
     }
 
     render() {
@@ -69,7 +69,7 @@ export default class ChannelController extends React.Component {
         return (
             <div
                 id='channel_view'
-                className='channel-view'
+                className=''
             >
                 <AnnouncementBarController/>
                 <SystemNotice/>

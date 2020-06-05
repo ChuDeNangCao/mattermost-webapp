@@ -20,7 +20,7 @@ export default class NotLoggedIn extends React.PureComponent {
     };
 
     componentDidMount() {
-        document.body.classList.add('sticky');
+        document.body.classList.add('');
         document.getElementById('root').classList.add('container-fluid');
     }
     componentWillUnmount() {
@@ -34,7 +34,7 @@ export default class NotLoggedIn extends React.PureComponent {
         if (this.props.config.AboutLink) {
             content.push(
                 <a
-                    key='about_link'
+                    key=''
                     id='about_link'
                     className='footer-link'
                     target='_blank'
@@ -64,7 +64,7 @@ export default class NotLoggedIn extends React.PureComponent {
         if (this.props.config.TermsOfServiceLink) {
             content.push(
                 <a
-                    key='terms_link'
+                    key=''
                     id='terms_link'
                     className='footer-link'
                     target='_blank'
@@ -112,7 +112,7 @@ export default class NotLoggedIn extends React.PureComponent {
                         <div className='col-xs-12'>
                             <span
                                 id='copyright'
-                                className='pull-right footer-link copyright'
+                                className=' footer-link copyright'
                             >
                                 {`© 2015-${new Date().getFullYear()} Mattermost, Inc.`}
                             </span>
