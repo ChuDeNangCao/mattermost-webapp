@@ -204,11 +204,11 @@ class EditChannelPurposeModal extends React.PureComponent {
                 <Modal.Footer>
                     <button
                         type='button'
-                        className='btn btn-link cancel-button'
+                        className='cancel-button'
                         onClick={this.onHide}
                     >
                         <FormattedMessage
-                            id='edit_channel_purpose_modal.cancel'
+                            id='edit_modal.cancel'
                             defaultMessage='Cancel'
                         />
                     </button>
@@ -219,7 +219,7 @@ class EditChannelPurposeModal extends React.PureComponent {
                         onClick={this.handleSave}
                     >
                         <FormattedMessage
-                            id='edit_channel_purpose_modal.save'
+                            id='_modal.save'
                             defaultMessage='Save'
                         />
                     </button>

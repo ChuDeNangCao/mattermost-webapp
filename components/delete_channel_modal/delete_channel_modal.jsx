@@ -123,10 +123,10 @@ export default class DeleteChannelModal extends React.PureComponent {
                         data-dismiss='modal'
                         onClick={this.handleDelete}
                         autoFocus={true}
-                        id='deleteChannelModalDeleteButton'
+                        id='deleteChannelModal'
                     >
                         <FormattedMessage
-                            id='delete_channel.del'
+                            id='delete_.del'
                             defaultMessage='Archive'
                         />
                     </button>
