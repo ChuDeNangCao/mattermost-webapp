@@ -318,7 +318,7 @@ class ChannelHeader extends React.PureComponent {
         ) {
             // Use an empty div to make sure the header's height stays constant
             return (
-                <div className=''/>
+                <div className='channel-header'/>
             );
         }
 
