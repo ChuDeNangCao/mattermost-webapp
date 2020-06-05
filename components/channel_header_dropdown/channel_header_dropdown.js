@@ -11,8 +11,8 @@ export default class ChannelHeaderDropdown extends React.PureComponent {
     render() {
         return (
             <Menu
-                id='channelHeaderDropdownMenu'
-                ariaLabel={localizeMessage('channel_header.menuAriaLabel', 'Channel Menu').toLowerCase()}
+                id=''
+                ariaLabel={localizeMessage('channel_header.menuAriaLabel', '').toLowerCase()}
             >
                 <ChannelHeaderDropdownItems isMobile={false}/>
             </Menu>

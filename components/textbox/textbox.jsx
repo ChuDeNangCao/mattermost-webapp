@@ -218,6 +218,8 @@ export default class Textbox extends React.PureComponent {
                         isRHS={this.props.isRHS}
                         message={this.props.value}
                     />
+
+                    <div className="custom-textarea">Add</div>
                 </div>
             );
         }
